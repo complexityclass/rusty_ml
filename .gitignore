@@ -1,0 +1,26 @@
+# Rust
+target/
+**/*.rs.bk
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.swp
+*.swo
+*.swn
+*.idea/
+.venv/
+.eggs/
+*.egg
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
