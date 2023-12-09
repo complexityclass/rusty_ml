@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 from supervised.knn import KNN
+import rs_ml
 
 cmap = ListedColormap(['#FF0000', '#00FF00', '#0000FF'])
 
@@ -27,3 +28,5 @@ print(predictions)
 
 acc = np.sum(predictions == y_test) / len(y_test)
 print(acc)
+
+rs_ml.knn(X_train, y_train.astype('float64'))

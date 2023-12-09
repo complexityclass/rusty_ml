@@ -9,5 +9,7 @@ name = "rs_ml"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = "0.19.0"
+pyo3 = "0.15"
+numpy = "0.15"
+ndarray = "0.15"
 supervised_algos = { path = "../supervised_algos" }
